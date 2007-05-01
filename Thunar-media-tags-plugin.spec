@@ -2,7 +2,7 @@
 %define		srcname	thunar-media-tags-plugin
 #
 Summary:	Media Tags plugin for the Thunar file manager
-Summary(pl.UTF-8):	Wtyczka Media Tags dla zarzÄ…dcy plikÃ³w Thunar
+Summary(pl):	Wtyczka Media Tags dla zarz±dcy plików Thunar
 Name:		Thunar-media-tags-plugin
 Version:	0.1.2
 Release:	1
@@ -28,12 +28,12 @@ dialog, a tag editor for ID3 or Ogg/Vorbis tags and a so-called bulk
 renamer, which allows users to rename multiple audio files at once,
 based on their tags.
 
-%description -l pl.UTF-8
-Ta wtyczka dodaje specjalnÄ… obsÅ‚ugÄ™ plikÃ³w multimedialnych do zarzÄ…dcy
-plikÃ³w Thunar. Zawiera specjalnÄ… stronÄ™ plikÃ³w multimedialnych dla
-okna wÅ‚aÅ›ciwoÅ›ci, edytor znacznikÃ³w ID3 i Ogg/Vorbis oraz tak zwany
-"bulk renamer", pozwalajÄ…cy uÅ¼ytkownikom zmieniÄ‡ nazwÄ™ wielu plikÃ³w
-dÅºwiÄ™kowych naraz w oparciu o ich znaczniki.
+%description -l pl
+Ta wtyczka dodaje specjaln± obs³ugê plików multimedialnych do zarz±dcy
+plików Thunar. Zawiera specjaln± stronê plików multimedialnych dla
+okna w³a¶ciwo¶ci, edytor znaczników ID3 i Ogg/Vorbis oraz tak zwany
+"bulk renamer", pozwalaj±cy u¿ytkownikom zmieniæ nazwê wielu plików
+d¼wiêkowych naraz w oparciu o ich znaczniki.
 
 %prep
 %setup -q -n %{srcname}-%{version}
