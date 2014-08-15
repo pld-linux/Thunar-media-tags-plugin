@@ -4,12 +4,12 @@
 Summary:	Media Tags plugin for the Thunar file manager
 Summary(pl.UTF-8):	Wtyczka Media Tags dla zarządcy plików Thunar
 Name:		Thunar-media-tags-plugin
-Version:	0.2.0
-Release:	2
+Version:	0.2.1
+Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://archive.xfce.org/src/thunar-plugins/thunar-media-tags-plugin/0.2/%{srcname}-%{version}.tar.bz2
-# Source0-md5:	e3fe46401ad12a5cde40b954ae1d8f80
+# Source0-md5:	0106e900714f86ccbafdc72238d3cf8d
 URL:		http://goodies.xfce.org/projects/thunar-plugins/thunar-media-tags-plugin
 BuildRequires:	Thunar-devel >= 1.4.0
 BuildRequires:	autoconf >= 2.50
