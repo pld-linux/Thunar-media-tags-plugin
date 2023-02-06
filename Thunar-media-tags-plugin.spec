@@ -59,8 +59,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__rm} $RPM_BUILD_ROOT%{_libdir}/thunarx-3/*.la
 
-%{__rm} -r $RPM_BUILD_ROOT%{_localedir}/ur_PK
-%{__rm} -r $RPM_BUILD_ROOT%{_localedir}/uz@Latn
+%{__rm} -r $RPM_BUILD_ROOT%{_localedir}/{fa_IR,hy_AM,hye,hye_RU,ie,ur_PK,uz@Latn}
 
 %find_lang %{srcname}
 
