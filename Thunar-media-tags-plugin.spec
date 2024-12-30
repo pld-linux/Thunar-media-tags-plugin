@@ -4,19 +4,18 @@
 Summary:	Media Tags plugin for the Thunar file manager
 Summary(pl.UTF-8):	Wtyczka Media Tags dla zarządcy plików Thunar
 Name:		Thunar-media-tags-plugin
-Version:	0.4.0
+Version:	0.5.0
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Source0:	https://archive.xfce.org/src/thunar-plugins/thunar-media-tags-plugin/0.4/%{srcname}-%{version}.tar.bz2
-# Source0-md5:	1a1125a58930713c95bdb09b8665994a
+Source0:	https://archive.xfce.org/src/thunar-plugins/thunar-media-tags-plugin/0.5/%{srcname}-%{version}.tar.bz2
+# Source0-md5:	5a731f3bc0781f1431154e01278790c9
 URL:		https://goodies.xfce.org/projects/thunar-plugins/thunar-media-tags-plugin
 BuildRequires:	Thunar-devel >= 1.8.0
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
-BuildRequires:	glib2-devel >= 2.50.0
+BuildRequires:	glib2-devel >= 1:2.50.0
 BuildRequires:	gtk+3-devel >= 3.22.0
-BuildRequires:	intltool
 BuildRequires:	libtool
 BuildRequires:	libxfce4util-devel >= 4.0.0
 BuildRequires:	taglib-devel >= 1.4
@@ -42,7 +41,6 @@ dźwiękowych naraz w oparciu o ich znaczniki.
 %setup -q -n %{srcname}-%{version}
 
 %build
-%{__intltoolize}
 %{__libtoolize}
 %{__aclocal}
 %{__autoconf}
