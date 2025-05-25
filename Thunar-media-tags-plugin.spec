@@ -16,10 +16,14 @@ BuildRequires:	glib2-devel >= 1:2.66.0
 BuildRequires:	gtk+3-devel >= 3.24.0
 BuildRequires:	libxfce4util-devel >= 4.0.0
 BuildRequires:	meson >= 0.56.0
-BuildRequires:	ninja
+BuildRequires:	ninja >= 1.5
+BuildRequires:	rpmbuild(macros) >= 2.042
 BuildRequires:	taglib-devel >= 1.4
 BuildRequires:	xfce4-dev-tools >= 4.18.0
 Requires:	Thunar >= 1.8.0
+Requires:	glib2 >= 1:2.66.0
+Requires:	gtk+3 >= 3.24.0
+Requires:	taglib >= 1.4
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -41,6 +45,7 @@ dźwiękowych naraz w oparciu o ich znaczniki.
 
 %build
 %meson
+
 %meson_build
 
 %install
